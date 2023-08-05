@@ -1,4 +1,7 @@
-cd $TMPDIR || cd "/data/local/tmp" && TMPDIR="/data/local/tmp"
+if [ -z $TMPDIR ]; then
+    TMPDIR="/data/local/tmp"
+fi
+cd $TMPDIR
 
 mkdir open_webview
 cd open_webview
