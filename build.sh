@@ -1,4 +1,5 @@
-cd $TMPDIR
+cd $TMPDIR || cd "/data/local/tmp" && TMPDIR="/data/local/tmp"
+
 mkdir open_webview
 cd open_webview
 

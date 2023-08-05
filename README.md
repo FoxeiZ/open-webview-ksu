@@ -26,7 +26,8 @@ Before flash module, please read below:
 
 ```
 # Run this on any terminal with root access
-/data/adb/ksu/bin/busybox wget -qO- https://github.com/FoxeiZ/open-webview-ksu/raw/main/build.sh | ASH_STANDALONE=1 /data/adb/ksu/bin/busybox sh
+/data/adb/ksu/bin/busybox wget -qO /data/local/tmp/build.sh https://github.com/FoxeiZ/open-webview-ksu/raw/main/build.sh
+ASH_STANDALONE=1 /data/adb/ksu/bin/busybox sh /data/local/tmp/build.sh
 ```
 
 ## Support
