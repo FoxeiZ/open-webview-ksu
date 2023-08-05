@@ -7,7 +7,7 @@ wget --no-check-certificate -qO- https://github.com/FoxeiZ/open-webview-ksu/arch
 cd open-webview-ksu-main
 chmod -R +x .
 
-./create-module.sh
+su -c create-module.sh
 cp -f module.zip /storage/emulated/0/Download/open_webview_ksu.zip
 echo "Copy module.zip into /storage/emulated/0/Download/Download/open_webview_ksu.zip"
 echo "Now go in KernelSU and flash module"
