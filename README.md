@@ -1,26 +1,33 @@
-# Open WebView - [XDA Thread](https://forum.xda-developers.com/t/magisk-module-font-open-webview-1-0-0.4496119/)
+# Open WebView KSU
 
-![Open WebView](https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/open_webview/master/img/logo.png)
+![Open WebView](https://raw.githubusercontent.com/FoxeiZ/open-webview-ksu/main/img/logo.png)
 
-This module helps you to replace your system webview though Magisk.
+This script helps you create the module to replace your system webview though KernelSU.
 
 >**ATTENTION!** There is a bug that still needs to be fixed where sometimes you may find that the installed webview doesn't work. To fix this bug you need to manually install the webview, to do this just:<br/><br/>- go to fdroid and re-download the latest version<br/>- manually download the apk and install it
 
 ## Compatibility
 
 - Android 8+
-- Magisk 20.4+
+- KernelSU v0.6.1+ (11041)
 
 ## Tested Device
 
-- [LOS 19](https://lineageos.org/)
 - [LOS 20](https://lineageos.org/)
+- [Corvus](https://github.com/Corvus-AOSP)
 - And more...
 
 ## DISCLAIMER
 
 Before flash module, please read below:
 >I AM NOT RESPONSIBLE SOME YOUR FEATURE FROM YOUR DEVICE IF DOESN'T WORK PROPERLY. BEFORE FLASH THE MODULE, PLEASE READ LINE CODES AND SELECT GOOGLE SERVICES YOU NEEDS. YOU ARE FLASHING THIS MAGISK MODULE AND ITS YOUR CHOICE TO DO IT OR NOT TO DO IT AND YOU'RE THE ONE DOING IT. I JUST WANT TO HELP OTHERS OUT.
+
+## Build step
+
+```
+# Run this on any terminal with root access
+/data/adb/ksu/bin/busybox wget -qO- https://github.com/FoxeiZ/open-webview-ksu/raw/main/build.sh | ASH_STANDALONE=1 /data/adb/ksu/bin/busybox sh
+```
 
 ## Support
 
@@ -35,12 +42,13 @@ If you found this helpful, please consider supporting development with a [coffe]
 
 ## Credits
 
-- [MMT-Extended](https://github.com/Zackptg5/MMT-Extended) by [Zackptg5](https://github.com/Zackptg5)
+- [aapt-binary](https://github.com/JonForShort/android-tools)
+- [MMT-Extended-Next](https://github.com/symbuzzer/MMT-Extended-Next) by [symbuzzer](https://github.com/symbuzzer)
 - [Bromite](https://github.com/bromite/bromite)
 - [DivestOS](https://gitlab.com/divested-mobile)
 - [cUrl](https://github.com/curl/curl)
 - [cUrl binary](https://github.com/F3FFO/compile_zlib_openssl_curl_android)
-- [Zipsigner](https://github.com/Magisk-Modules-Repo/zipsigner) by [osm0sis](https://github.com/osm0sis)
+- [Zipsigner and zip](https://github.com/Magisk-Modules-Repo/zipsigner) by [osm0sis](https://github.com/osm0sis)
 
 ## License
 
