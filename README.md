@@ -26,8 +26,10 @@ Before flash module, please read below:
 
 ```
 # Run this on any terminal with root access
+
 /data/adb/ksu/bin/busybox wget -qO /data/local/tmp/build.sh https://github.com/FoxeiZ/open-webview-ksu/raw/main/build.sh
 ASH_STANDALONE=1 /data/adb/ksu/bin/busybox sh /data/local/tmp/build.sh
+
 ```
 
 ## Support
@@ -43,6 +45,7 @@ If you found this helpful, please consider supporting development with a [coffe]
 
 ## Credits
 
+- Original [repo](https://github.com/Magisk-Modules-Alt-Repo/open_webview) by [F3FFO](https://github.com/F3FFO/)
 - [aapt-binary](https://github.com/JonForShort/android-tools)
 - [MMT-Extended-Next](https://github.com/symbuzzer/MMT-Extended-Next) by [symbuzzer](https://github.com/symbuzzer)
 - [Bromite](https://github.com/bromite/bromite)
