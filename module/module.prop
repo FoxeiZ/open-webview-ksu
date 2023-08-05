@@ -1,8 +1,0 @@
-id=open_webview_ksu
-name=Open Webview KSU
-version=2.1.0_1
-versionCode=1041
-author=FoxeiZ
-description=Open Webview change your system webview
-updateJson=https://github.com/FoxeiZ/open-webview-ksu/master/update.json
-support=https://github.com/FoxeiZ/open-webview-ksu/issues
